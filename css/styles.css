@@ -11,176 +11,20 @@ body {
   background-color: black;
 }
 
-@media (min-width: 1400px) {
+
+
+@media (min-width: 576px){
   header h1 {
     position: absolute;
-    top: 40%;
-    right: 35%;
+    top: 20%;
     font-size: 500%;
+    text-align: center;
+    width: 100%;
   }
 
   header img {
     width: 100%;
-    height: 750px;
-  }
-
-  header a {
-    text-decoration: none;
-    text-align: center;
-  }
-
-  header ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center
-  }
-
-  header li {
-    display: inline-block;
-    margin: center;
-  }
-
-
-  header section {
-    background-color: black;
-    margin-top: -5px;
-    padding-top: 3%;
-    height: 225px;
-
-  }
-
-  header section ul li img {
-    width: 150px;
-    height: 150px;
-  }
-
-  nav dl {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-
-  }
-
-  nav dl a {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-  }
-
-
-  nav dl dt,
-  nav dl dd {
-    font-size: 150%;
-    padding: 20px;
-    padding-top: 50px;
-    display: inline-block;
-    text-align: center;
-  }
-
-  main {
-    background-image: url(../assets/cheryl.jpg);
-  }
-
-  
-
-  main img {
-    width: 500px;
     height: 500px;
-  }
-
-  form {
-    text-align: center;
-    background-color: rgb(22, 22, 22);
-    width: 100%;
-    height: 300px;
-    font-size: 30px;
-    padding-top: 25px;
-  }
-
-
-
-  form input::placeholder,
-  form select,
-  .placeholder,
-  form select option {
-    border-radius: 10px;
-    width: 250px;
-    height: 50px;
-    background-color: #666;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-
-
-  .formulario {
-    width: 80%;
-    margin: auto;
-  }
-
-  .formularioMenor {
-    width: 40%;
-    margin: auto;
-  }
-
-
-
-
-  footer {
-    background-color: black;
-    text-align: center;
-    font-size: 100%;
-    padding: 10px;
-    color: #666;
-  }
-
-  footer img {
-    width: 100px;
-    height: 100px;
-  }
-
-  footer div {
-    display: inline-block;
-    width: 25%;
-  }
-
-  footer div li,
-  footer div a,
-  footer div h3 {
-    text-decoration: none;
-    list-style: none;
-    padding-bottom: 10px;
-  }
-
-  footer div a i {
-    font-size: 100px;
-    color: #666;
-  }
-
-  footer h3 {
-    color: #666;
-  }
-
-  footer a {
-    color: #666;
-  }
-}
-
-@media (min-width: 1200px) {
-  header h1 {
-    position: absolute;
-    top: 40%;
-    right: 27%;
-    font-size: 500%;
-    text-align: center;
-  }
-
-  header img {
-    width: 100%;
-    height: 750px;
     background-size: cover;
   }
 
@@ -206,8 +50,6 @@ body {
     background-color: black;
     margin-top: -5px;
     padding-top: 3%;
-    height: 225px;
-
   }
 
   header section ul li img {
@@ -215,46 +57,67 @@ body {
     height: 150px;
   }
 
-  nav dl {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
 
-  }
-
-  nav dl a {
+  nav a {
     color: white;
     font-size: 25px;
     font-weight: bold;
-  }
-
-
-  nav dl dt,
-  nav dl dd {
-    font-size: 150%;
-    padding: 20px;
-    padding-top: 50px;
-    display: inline-block;
     text-align: center;
   }
 
+  nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+
+
+  .siguientePestaña{
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+  }
+  .siguientePestaña a{
+    color: white;
+    text-decoration: none;
+  }
+  .siguientePestaña a:hover, .siguientePestaña i:hover{
+    color: rgb(255, 180, 180);
+  }
+  
   main {
     background-image: url(../assets/cheryl.jpg);
-   
   }
 
  
-
+  main section p, h2, h4{
+    padding: 20px;
+    text-align: center;
+  }
   main img {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+  }
+  .quienesSomos{
+    width: 70%;
+    margin: auto;
+  }
+  .video{
+    text-align: center;
+    
   }
 
   form {
     text-align: center;
     background-color: rgb(22, 22, 22);
     width: 100%;
-    height: 300px;
+    padding: 20px;
     font-size: 30px;
     padding-top: 25px;
   }
@@ -283,515 +146,93 @@ body {
   }
 
   .formularioMenor {
-    width: 40%;
+    width: 60%;
     margin: auto;
   }
-
-
-
-
-  footer {
-    background-color: black;
-    text-align: center;
-    font-size: 100%;
-    padding: 10px;
-    color: #666;
-  }
-
-  footer img {
-    width: 100px;
-    height: 100px;
-  }
-
-  footer div {
-    display: inline-block;
-    width: 25%;
-  }
-
-  footer div li,
-  footer div a,
-  footer div h3 {
-    text-decoration: none;
-    list-style: none;
-    padding-bottom: 10px;
-  }
-
-  footer div a i {
-    font-size: 100px;
-    color: #666;
-  }
-
-  footer h3 {
-    color: #666;
-  }
-
-  footer a {
-    color: #666;
-  }
-}
-
-@media (min-width: 992px) {
-  header h1 {
-    position: absolute;
-    top: 27%;
-    right: 27%;
-    font-size: 500%;
-    text-align: center;
-  }
-
-  header img {
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-  }
-
-  header a {
-    text-decoration: none;
-    text-align: center;
-  }
-
-  header ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center
-  }
-
-  header li {
-    display: inline-block;
-    margin: center;
-  }
-
-
-  header section {
-    background-color: black;
-    margin-top: -5px;
-    padding-top: 3%;
-    height: 300px;
-
-  }
-
-  header section ul li img {
-    width: 150px;
-    height: 150px;
-  }
-
-
-  nav a {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-
-  }
-
-  nav {
-    padding-bottom: 25px;
-    text-align: center;
+  .centrarDiv{
     width: 75%;
     margin: auto;
   }
 
-  main {
-    background-image: url(../assets/cheryl.jpg);
-  }
 
- 
 
-  main img {
-    width: 500px;
-    height: 500px;
-  }
-
-  form {
+  footer {
+    
+    background-color: black;
     text-align: center;
-    background-color: rgb(22, 22, 22);
-    width: 100%;
-    height: 300px;
-    font-size: 30px;
-    padding-top: 25px;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #666;
   }
 
-
-
-  form input::placeholder,
-  form select,
-  .placeholder,
-  form select option {
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    background-color: #666;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 10px;
+  footer div li,
+  footer div a,
+  footer div h3 {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 10px;
   }
 
+  footer div a i {
+    font-size: 75px;
+    color: #666;
+  }
 
+  footer h3 {
+    color: #666;
+  }
 
+  footer a {
+    color: #666;
+  }
+}
+
+@media (min-width: 768px){
+  .formulario {
+    width: 70%;
+    margin: auto;
+  }
+
+  .formularioMenor {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px){
+  .formulario {
+    width: 90%;
+    margin: auto;
+  }
+
+  .formularioMenor {
+    width: 45%;
+    margin: auto;
+  }
+}
+@media (min-width: 1200px){
   .formulario {
     width: 80%;
     margin: auto;
   }
-
   .formularioMenor {
     width: 40%;
     margin: auto;
   }
-
-
-
-
-  footer {
-    background-color: black;
-    text-align: center;
-    font-size: 100%;
-    padding: 10px;
-    color: #666;
-  }
-
-  footer img {
-    width: 100px;
-    height: 100px;
-  }
-
-  footer div {
-    display: inline-block;
-    width: 25%;
-  }
-
-  footer div li,
-  footer div a,
-  footer div h3 {
-    text-decoration: none;
-    list-style: none;
-    padding-bottom: 10px;
-  }
-
-  footer div a i {
-    font-size: 100px;
-    color: #666;
-  }
-
-  footer h3 {
-    color: #666;
-  }
-
-  footer a {
-    color: #666;
-  }
 }
-@media (min-width: 768px ) and (max-width: 1200px) {
-  header h1 {
-    position: absolute;
-    top: 27%;
-    right: 18%;
-    font-size: 500%;
-    text-align: center;
-  }
-
-  header img {
-    width: 100%;
-    height: 600px;
-    background-size: cover;
-  }
-
-  header a {
-    text-decoration: none;
-    text-align: center;
-  }
-
-  header ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center
-  }
-
-  header li {
-    display: inline-block;
-    margin: center;
-  }
-
-
-  header section {
-    background-color: black;
-    margin-top: -5px;
-    padding-top: 3%;
-    height: 300px;
-
-  }
-
-  header section ul li img {
-    width: 150px;
-    height: 150px;
-  }
-
-
-  nav a {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-
-  }
-
-  nav {
-    padding-bottom: 25px;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
-
-  main {
-    background-image: url(../assets/cheryl.jpg);
-  }
-
- 
-  main section p, h2{
-    padding: 20px;
-    text-align: center;
-  }
-  main img {
-    width: 450px;
-    height: 450px;
-    margin: auto;
-  }
-
-  form {
-    text-align: center;
-    background-color: rgb(22, 22, 22);
-    width: 100%;
-    height: 300px;
-    font-size: 30px;
-    padding-top: 25px;
-  }
-
-
-
-  form input::placeholder,
-  form select,
-  .placeholder,
-  form select option {
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    background-color: #666;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-
-
+@media (min-width: 1400px){
   .formulario {
-    width: 100%;
+    width: 65%;
     margin: auto;
   }
-
   .formularioMenor {
-    width: 60%;
+    width: 35%;
     margin: auto;
   }
-
-
-
-
-  footer {
-    background-color: black;
-    text-align: center;
-    font-size: 100%;
-    padding: 10px;
-    color: #666;
-  }
-
-  footer img {
-    width: 100px;
-    height: 100px;
-  }
-
-  footer div {
-    display: inline-block;
-    
-  }
-
-  footer div li,
-  footer div a,
-  footer div h3 {
-    text-decoration: none;
-    list-style: none;
-    padding-bottom: 10px;
-  }
-
-  footer div a i {
-    font-size: 100px;
-    color: #666;
-  }
-
-  footer h3 {
-    color: #666;
-  }
-
-  footer a {
-    color: #666;
+  footer{
+    margin: auto;
+    width: 80%;
   }
 }
 
 
-@media (min-width: 576px ) and (max-width:768px) {
-  header h1 {
-    position: absolute;
-    top: 20%;
-    right: 4%;
-    font-size: 500%;
-    text-align: center;
-  }
-
-  header img {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-  }
-
-  header a {
-    text-decoration: none;
-    text-align: center;
-  }
-
-  header ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center
-  }
-
-  header li {
-    display: block;
-    margin: center;
-  }
-
-
-  header section {
-    background-color: black;
-    margin-top: -5px;
-    padding-top: 3%;
-    height: 450px;
-    
-  }
-
-  header section ul li img {
-    width: 150px;
-    height: 150px;
-  }
-
-
-  nav a {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  nav {
-    padding-bottom: 25px;
-    text-align: center;
-    width: 100%;
-    margin: auto;
-  }
-
-  main {
-    background-image: url(../assets/cheryl.jpg);
-  }
-
- 
-  main section p, h2{
-    padding: 20px;
-    text-align: center;
-  }
-  main img {
-    width: 450px;
-    height: 450px;
-    margin: auto;
-  }
-
-  form {
-    text-align: center;
-    background-color: rgb(22, 22, 22);
-    width: 100%;
-    height: 500px;
-    font-size: 30px;
-    padding-top: 25px;
-  }
-
-
-
-  form input::placeholder,
-  form select,
-  .placeholder,
-  form select option {
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    background-color: #666;
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
-
-
-  .formulario {
-    width: 100%;
-    margin: auto;
-  }
-
-  .formularioMenor {
-    width: 60%;
-    margin: auto;
-  }
-
-
-
-
-  footer {
-    background-color: black;
-    text-align: center;
-    font-size: 100%;
-    padding: 10px;
-    color: #666;
-  }
-
-  footer img {
-    width: 100px;
-    height: 100px;
-  }
-
-  footer div {
-    display: inline-block;
-    
-  }
-
-  footer div li,
-  footer div a,
-  footer div h3 {
-    text-decoration: none;
-    list-style: none;
-    padding-bottom: 10px;
-  }
-
-  footer div a i {
-    font-size: 100px;
-    color: #666;
-  }
-
-  footer h3 {
-    color: #666;
-  }
-
-  footer a {
-    color: #666;
-  }
-}
